@@ -10,7 +10,7 @@ function App() {
     e.preventDefault();
     try {
       const parsedInput = JSON.parse(jsonInput);
-      const res = await fetch('http://localhost:3000/bfhl', {
+      const res = await fetch('https://bajaj-finserv-pratyush-sharma-21-bce-0963.vercel.app/bfhl', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
